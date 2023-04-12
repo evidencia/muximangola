@@ -8,10 +8,8 @@ import "../styles/all-foods.css";
 import "../styles/pagination.css";
 
 import {products} from '../assets/fake-data/products';
-import { useState } from 'react';
 
 export function AllProducts() {
-  const [searchTerm, setSearchTerm] = useState('');
   return (
     <>
       <CommonSection  title='Todos produtos'/>
@@ -24,8 +22,6 @@ export function AllProducts() {
                 <input
                   type="text"
                   placeholder="Estou procurando por...."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
                 />
                 <span>
                   <i className="ri-search-line"></i>

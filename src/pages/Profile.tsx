@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
 
-import profileImg from '../assets/images/ava-2.jpg'
+import profileImg from '../assets/images/ava-3.jpg'
 import '../styles/profile.css'
 import { CommonSection } from "../components/UI/CommonSection";
 
@@ -18,7 +18,7 @@ export function Profile() {
                 <div className="account-settings">
                   <div className="user-profile">
                     <div className="user-avatar">
-                      <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin" />
+                      <img src={profileImg} alt="profile" />
                     </div>
                     <h5 className="user-name">Evidencia David</h5>
                     <h6 className="user-email">evidenciadaavid2016@gmail.com</h6>
@@ -80,7 +80,7 @@ export function Profile() {
                 <div className="row gutters">
                   <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div className="text-right mt-4">
-                      <button type="button" id="submit" name="submit" className="btn btn-primary">Editar perfil</button>
+                      <button type="button" id="submit" name="submit" className="btn btn-color">Editar perfil</button>
                     </div>
                   </div>
                 </div>

@@ -33,7 +33,7 @@ export function History() {
                   </thead>
                   <tbody>
                     {products.map((product) => (
-                      <tr>
+                      <tr key={product.id}>
                         <td className="text-center cart__img-box">012344</td>
                         <td className="text-center justify-content-center d-flex align-items-center">03-04-2023</td>
                         <td className="text-center">4</td>
