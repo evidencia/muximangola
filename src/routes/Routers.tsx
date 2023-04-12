@@ -8,7 +8,7 @@ import { Register } from '../pages/Register';
 import { ProductDetails } from '../pages/ProductDetails';
 import { Contact } from '../pages/Contact';
 import { AllProducts } from '../pages/AllProducts';
-import { History } from '../pages/history';
+import { History } from '../pages/History';
 import { Profile } from '../pages/Profile';
 
 export function Routers() {
