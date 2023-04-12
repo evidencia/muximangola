@@ -1,0 +1,75 @@
+.bannerPublic{
+  width: 100%;
+  height: 220px;
+  background: #E2F9EE;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.bannerPublic img{
+  width: 90%;
+  height: 85%;
+  display: block;
+  margin: auto 0;
+  object-fit: cover;
+  margin-left: -1.5rem;
+  border-radius: 4px;
+
+}
+
+.conteudo{
+  margin: auto;
+}
+
+.conteudo p{
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.conteudo h5{
+  font-size: 1.5rem;
+}
+
+.bannerPublic button{
+  width: 35%;
+  height: 45px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  background: #FFD337;
+}
+
+@media (max-width: 768px){
+  .bannerPublic{
+    padding: 0px 0.8rem;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
+  .conteudo h5{
+    font-size: 1rem;
+  }
+
+  .conteudo p{
+    font-size: 0.7rem;
+    color: #777;
+  }
+
+  .bannerPublic img{
+    display: block;
+    margin: auto 0;
+    object-fit: cover;
+    margin-left: 0 !important;
+    border-radius: 4px;
+  }
+
+  .bannerPublic button{
+    display: none;
+  }
+
+}

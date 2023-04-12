@@ -1,0 +1,20 @@
+.promotion{
+  width: 100px;
+  color: #000;
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 0, 0.7);
+}
+
+@media only screen and (max-width: 768px) {
+  .promotion{
+    width: 100px;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}

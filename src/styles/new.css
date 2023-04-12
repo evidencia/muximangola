@@ -1,0 +1,18 @@
+.new{
+  width: 100px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #3EA76C;
+}
+
+@media only screen and (max-width: 768px) {
+  .new{
+    width: 100px;
+    font-weight: 400;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}

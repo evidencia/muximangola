@@ -1,0 +1,62 @@
+.hero__content {
+  padding-top: 70px;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+  line-height: 55px;
+  color: #000;
+}
+
+.hero__title span {
+  color: #08C25E;
+}
+
+.hero__content p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #777;
+}
+
+.hero__btns button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero__btns svg {
+  font-weight: 600;
+}
+
+.order__btn {
+  background: #FFD337;
+  color: #fff;
+  transition: filter 0.3s;
+}
+
+.order__btn:hover {
+  filter: brightness(0.9);
+  color: #fff;
+}
+
+.order__btn a:hover {
+  color: #fff;
+}
+
+
+.hero__service p {
+  color: #000;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.shipping__icon i {
+  padding: 5px;
+  background: #FFD337;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 500 !important;
+}

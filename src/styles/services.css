@@ -1,0 +1,105 @@
+.services{
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  margin-top: -7rem;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.services svg{
+  text-align: center;
+  margin-top: 15px;
+  color: #37E085;
+}
+
+.services h4{
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #37E085;
+}
+
+.services p{
+  color: #777;
+  font-size: 0.875rem;
+}
+
+.service-datails{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 568px) and (min-width: 220px) {
+  html{
+    font-size: 0.875rem;
+  }
+
+  .services{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2rem !important;
+  }
+
+  .services svg{
+    width: 34px !important;
+    margin-top: 10px;
+  }
+
+  
+  .services h4{
+    font-size: 0.875rem;
+    margin-top: 10px;
+    color: #37E085;
+  }
+  
+  .services p{
+    color: #777;
+    font-size: 0.775rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 568px) {
+  .services{
+    margin-top: -2rem !important;
+  }
+
+  .services svg{
+    width: 30px !important;
+    margin-top: 10px;
+  }
+
+  .services h4{
+    font-size: 0.875rem;
+    margin-top: 10px;
+    color: #37E085;
+  }
+
+  .services p{
+    color: #777;
+    font-size: 0.775rem;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .services{
+    margin-top: -1rem !important;
+  }
+
+  .services svg{
+    width: 32px !important;
+    margin-top: 10px;
+  }
+
+  .services h4{
+    font-size: 0.875rem;
+    margin-top: 10px;
+    color: #37E085;
+  }
+
+  .services p{
+    color: #777;
+    font-size: 0.775rem;
+  }
+}
+
+

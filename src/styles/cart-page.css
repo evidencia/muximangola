@@ -1,0 +1,138 @@
+.tableCart{
+  width: 100%;
+}
+
+.tableCart table{
+  width: 100%;
+  border-spacing: 0 0.5rem;
+} 
+
+.tableCart th{
+  font-weight: 500;
+  padding: 1rem 2rem;
+  text-align: center !important;
+  line-height: 1.5rem;
+  color: rgb(29, 29, 30);
+  background: #E2F9EE;
+}
+
+.tableCart td{
+    padding: 1rem 2rem;
+    border-radius: 0;
+    color: rgb(84, 84, 86);
+}
+
+.tableCart tr {
+  border-radius: 8px;
+  border: 1px solid rgb(212, 212, 212) !important;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tableCart td img {
+  width: 100%;
+  height: 50px;
+}
+
+.amout{
+  font-size: 1rem;
+  color: #08C25E !important;
+}
+
+.tableCart .cart__item-del i {
+  cursor: pointer;
+}
+
+.tableCart .cart__page-btn button a:hover {
+  color: #fff;
+}
+
+.tableCart .cart__subtotal {
+  color: #08C25E;
+  font-size: 1.5rem !important;
+}
+
+.tableCart .cart__item-del{
+  color: rgb(84, 84, 86);
+}
+
+.tableCart .cart__item-del:hover{
+  color: #df2020;
+}
+
+.subtotalcard{
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: #E2F9EE;
+}
+
+
+.increase__decrease-btn {
+  background: #E2F9EE;
+  padding: 2px 10px;
+  border-radius: 5px;
+  width: 100px !important;
+}
+
+.increase__btn,
+.decrease__btn {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  th,
+  td {
+    font-size: 0.8rem;
+  }
+
+  .tableCart td img{
+    width: 40px;
+  }
+
+  .increase__decrease-btn {
+    padding: 2px 5px;
+    width: 60px !important;
+  }
+  .amout{
+    font-size: 0.875rem;
+  }
+
+  .tableCart td{
+    padding: 0.2rem 0.800rem;
+  }
+  
+  .tableCart{
+    margin-bottom: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .tableCart td img{
+    width: 40px;
+  }
+
+  .increase__decrease-btn {
+    padding: 2px 5px;
+    width: 70px !important;
+  }
+
+  .amout{
+    font-size: 0.875rem;
+  }
+
+  .tableCart td{
+    padding: 0.2rem 0.800rem;
+  }
+  
+  .tableCart{
+    margin-bottom: 15px;
+  }
+
+  .cart__page-btn button{
+    padding: 6px 10px !important;
+  }
+}
